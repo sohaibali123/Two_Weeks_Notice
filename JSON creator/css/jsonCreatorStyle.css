@@ -1,0 +1,21 @@
+h1 {
+    width:100%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    color: #307c78;
+}
+.dzJSON {
+    width: 80%;
+    height:300px;
+    margin: auto;
+    margin-top: 100px;
+    border: 5px dashed #3ea19d;
+    color: #3e74a1;
+}
+
+.dzJSON:hover {
+    background-color: #a13e75;
+    color: #ffffff;
+}
+

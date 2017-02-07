@@ -1,10 +1,10 @@
 var dropzone = new Dropzone('.dzJSON', {
+    previewTemplate: document.querySelector('#preview-template').innerHTML,
     parallelUploads: 2,
     thumbnailHeight: 120,
     thumbnailWidth: 120,
     maxFilesize: 3,
     filesizeBase: 1000,
-    dictDefaultMessage: "Upload Files Here",
     thumbnail: function(file, dataUrl) {
       if (file.previewElement) {
         file.previewElement.classList.remove("dz-file-preview");
