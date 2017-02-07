@@ -1,0 +1,36 @@
+h1 {
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 36px;
+    transform: translateX(-50%) translateY(20%);
+    color: #307c78;
+}
+.dzJSON {
+    width: 50%;
+    height:200px;
+    margin: auto;
+    border: 5px dashed #3ea19d;
+    color: #3e74a1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-80%);
+}
+
+.dzJSON:hover {
+    background-color: #a13e75;
+    color: #ffffff;
+}
+
+.dz-message {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-80%);
+}
+
